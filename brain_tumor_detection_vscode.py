@@ -1,7 +1,6 @@
 import os
 import random
 from typing import List, Tuple
-
 import cv2
 import kagglehub
 import matplotlib.pyplot as plt
@@ -17,7 +16,6 @@ BATCH_SIZE = 25
 SEED = 10
 MODEL_PATH = "brain_tumor_model.keras"
 
-# These folders are treated as tumor = 1
 TUMOR_FOLDERS = [
     "Brain tumor - Recurrenceremnant of previous lesion",
     "Brain tumor operated with ventricular hemorrhage",
